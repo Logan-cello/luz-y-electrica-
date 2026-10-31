@@ -1,0 +1,229 @@
+==============================================================================
+  INFORME DE RED DE LUZ Y AGUA  (grafo dirigido + dependencias)
+==============================================================================
+- LUZ ELÉCTRICA
+LUZ           servicio=100.0%  demanda atendida=  1260/1260 kW  (consumidores sin servicio: 0/5)
+  Nodos activos: 16/16   Aristas: 19 (averiadas: 0)   Componentes conexas: 1
+  Todos los consumidores reciben servicio.
+
+- AGUA POTABLE
+AGUA          servicio=100.0%  demanda atendida=   760/760 L/min  (consumidores sin servicio: 0/5)
+  Nodos activos: 14/14   Aristas: 15 (averiadas: 0)   Componentes conexas: 1
+  Todos los consumidores reciben servicio.
+
+==============================================================================
+  HISTORIAL DE EVENTOS (209)
+==============================================================================
+  [19:17:36] REPARACION    -         Red completamente reparada
+  [19:17:36] FALLO_NODO    SUB-1     Fallo de nodo: cortocircuito en el lado de alta tensión
+  [19:17:36] REPARACION    -         Red completamente reparada
+  [19:17:36] FALLO_NODO    POS-1     Fallo de nodo: poste caído por viento
+  [19:17:36] FALLO_NODO    POS-3     Fallo de nodo: poste caído por viento
+  [19:17:36] FALLO_NODO    VALV-3    Fallo de nodo: válvula dañada por caída de rama
+  [19:17:36] REPARACION    -         Red completamente reparada
+  [19:17:36] FALLO_NODO    EMP-1     Fallo de nodo: rotura de tubería, inundación del empalme
+  [19:17:36] FALLO_NODO    POS-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A03       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-1-A   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E17       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-3    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-A     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    HOSP-E    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E04       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-3    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-2-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E13       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-A     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-1-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-3-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-4     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-3-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-E     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A02       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E13       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    HOSP-E    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E05       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E06       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E15       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A01       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E01       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E19       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-A     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-E     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-A     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-E     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A03       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E15       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-2-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E02       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-2-A   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A07       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A15       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A01       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E02       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E19       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A15       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A04       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A12       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-3-A   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E07       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-3     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-4     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-A     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    HOSP-E    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E13       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A12       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A02       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    HOSP-A    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E18       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    IND-A     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A06       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E06       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-3-A   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    HOSP-E    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A13       Fallo ale
+  Diagrama generado: red_servicios.svg
+
+  Ejecuta sin argumentos para usar el menú interactivo:
+      java servicios.Main
+z
+  [19:17:36] FALLO_NODO    TRF-4     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-1-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E13       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-2-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E19       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-3     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A07       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-2-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A07       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E19       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E01       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A02       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E04       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-1-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    HOSP-E    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A12       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A07       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    EMP-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E16       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-3     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E04       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E03       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-4     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A04       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E19       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-1-A   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A15       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    POS-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A06       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E17       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-3    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A04       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-3    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-3-A   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E18       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TRF-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A12       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    BMB-2     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    SUB-1     Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-3    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-3-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A03       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VIV-2-E   Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-1    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_NODO    TANQ-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E09       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A11       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A08       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A10       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A14       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_NODO    VALV-2    Fallo aleatorio: prueba de robustez
+  [19:17:36] FALLO_ARISTA  A06       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] FALLO_ARISTA  E03       Fallo aleatorio de conexión: prueba de robustez
+  [19:17:36] REPARACION    -         Red completamente reparada

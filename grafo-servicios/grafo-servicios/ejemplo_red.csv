@@ -1,0 +1,35 @@
+id,nombre,servicio,categoria,demanda,estado
+PLT-1,"Central hidroeléctrica",LUZ,PLANTA,0,OK
+SUB-1,"Subestación Norte",LUZ,SUBESTACION,0,OK
+SUB-2,"Subestación Sur",LUZ,SUBESTACION,0,OK
+TRF-1,"Transformador 1",LUZ,TRANSFORMADOR,0,OK
+TRF-2,"Transformador 2",LUZ,TRANSFORMADOR,0,OK
+TRF-3,"Transformador 3",LUZ,TRANSFORMADOR,0,OK
+TRF-4,"Transformador 4",LUZ,TRANSFORMADOR,0,OK
+POS-1,"Poste Norte",LUZ,POSTE,0,OK
+POS-2,"Poste Centro",LUZ,POSTE,0,OK
+POS-3,"Poste Sur",LUZ,POSTE,0,OK
+POS-4,"Poste Este",LUZ,POSTE,0,OK
+HOSP-E,"Hospital (luz)",LUZ,HOSPITAL,180,OK
+IND-E,"Industria (luz)",LUZ,INDUSTRIA,400,OK
+VIV-1-E,"Barrio Norte (luz)",LUZ,VIVIENDA,260,OK
+VIV-2-E,"Barrio Sur (luz)",LUZ,VIVIENDA,220,OK
+VIV-3-E,"Barrio Este (luz)",LUZ,VIVIENDA,200,OK
+RES-1,"Reservorio principal",AGUA,RESERVORIO,0,OK
+BMB-1,"Bombeo Norte",AGUA,BOMBA,0,OK
+BMB-2,"Bombeo Sur",AGUA,BOMBA,0,OK
+TANQ-1,"Tanque Norte",AGUA,TANQUE,0,OK
+TANQ-2,"Tanque Sur",AGUA,TANQUE,0,OK
+VALV-1,"Válvula 1",AGUA,VALVULA,0,OK
+VALV-2,"Válvula 2",AGUA,VALVULA,0,OK
+VALV-3,"Válvula 3",AGUA,VALVULA,0,OK
+EMP-1,"Empalme central",AGUA,EMPALME,0,OK
+HOSP-A,"Hospital (agua)",AGUA,HOSPITAL,120,OK
+IND-A,"Industria (agua)",AGUA,INDUSTRIA,400,OK
+VIV-1-A,"Barrio Norte (agua)",AGUA,VIVIENDA,90,OK
+VIV-2-A,"Barrio Sur (agua)",AGUA,VIVIENDA,80,OK
+VIV-3-A,"Barrio Este (agua)",AGUA,VIVIENDA,70,OK
+
+servicio,demanda_total,demanda_atendida,demanda_perdida,porcentaje_servicio,consumidores_sin_servicio
+LUZ,1260,1260,0,100.00,0
+AGUA,760,760,0,100.00,0

@@ -1,0 +1,36 @@
+SISTEMA DE GRAFOS: RED DE LUZ Y AGUA CON INYECCIÓN DE FALLOS  (Java)
+====================================================================
+
+Requisitos: JDK 11 o superior (javac y java en el PATH).
+
+1) COMPILAR
+   Windows:        compilar.bat
+   Linux / macOS:  ./compilar.sh
+   Manual:         javac -encoding UTF-8 -d out $(find src -name "*.java")
+                   (Windows: dir /s /b src\*.java > fuentes.txt
+                    javac -encoding UTF-8 -d out @fuentes.txt)
+
+2) EJECUTAR
+   Windows:        ejecutar.bat
+   Linux / macOS:  ./ejecutar.sh
+                   -> menú interactivo para meter fallos a mano.
+
+   Demo guiada:    ./ejecutar.sh --demo        (o: ejecutar.bat --demo)
+   Un escenario:   ./ejecutar.sh --escenario 1 (1..7)
+   Exportar:       ./ejecutar.sh --csv datos.csv    ./ejecutar.sh --svg red.svg
+   Pruebas:        java -Dfile.encoding=UTF-8 -cp out servicios.PruebasGrafo
+                   (Windows: java -cp out servicios.PruebasGrafo)
+
+3) QUÉ MIRAR
+   README.md            explicación del modelo, algoritmos y cómo ampliarlo
+   red_servicios.svg    diagrama del grafo (ábrelo en el navegador)
+   ejemplo_fallos.svg   diagrama con el escenario 1 aplicado (SUB-1 caído)
+   informe_ejemplo.txt  salida real de la demo
+   pruebas_ejemplo.txt  salida de las 20 pruebas (0 fallidas)
+
+4) MENÚ: OPCIONES RÁPIDAS
+   1 topología | 2 informe | 3 fallo de NODO (TRF-3, EMP-1...)
+   4 fallo de CONEXIÓN (E14, A09...) | 5 escenarios | 6 fallo aleatorio
+   7 reparar todo | 8 análisis N-1 | 9 robustez | 10 Dijkstra | 11 exportar | 12 SVG
+
+Los scripts .sh pueden necesitar: chmod +x compilar.sh ejecutar.sh
