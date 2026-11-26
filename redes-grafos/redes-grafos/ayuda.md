@@ -47,7 +47,8 @@ redes-grafos/
 | `redes.algoritmos.PlanReparacion` | Prioriza las reparaciones según los dispositivos que cada una restablece. |
 | `redes.algoritmos.Vulnerabilidad` | Busca puentes y puntos de articulación y mide su impacto real en los dispositivos. |
 | `redes.algoritmos.FlujoCapacidad` | Calcula cuánto flujo puede entregarse respetando capacidades y demandas. |
-| `redes.app.Main` | Punto de entrada; procesa argumentos y ofrece el menú de consola. |
+| `redes.app.Main` | Punto de entrada; procesa argumentos, muestra el mapa inicial y ofrece el menú de consola. |
+| `redes.app.MapaRed` | Muestra cada nodo y sus conexiones, indicando aristas caídas y nodos averiados. |
 | `redes.app.Reportes` | Presenta los resultados en consola, separando la salida de los cálculos. |
 
 La estructura sigue una separación sencilla: `modelo` contiene los datos, `io` los carga, `algoritmos` calcula y `app` permite usar y mostrar el sistema.
@@ -160,7 +161,7 @@ También puedes abrir la carpeta del proyecto en IntelliJ IDEA, Eclipse o VS Cod
 
 ## 5. Usar el menú
 
-Al iniciar sin `--demo`, aparece un menú con estas opciones:
+Al iniciar, tanto en modo demo como interactivo, se muestra primero el mapa topológico: cada nodo aparece con sus conexiones y se marcan las aristas caídas y los nodos averiados. No representa ubicaciones geográficas; cada conexión se lista desde ambos extremos. En el modo interactivo aparece después el menú:
 
 | Opción | Acción |
 |---:|---|
@@ -174,6 +175,7 @@ Al iniciar sin `--demo`, aparece un menú con estas opciones:
 | 8 | Mostrar el plan priorizado de reparación. |
 | 9 | Mostrar el análisis de vulnerabilidad del diseño. |
 | 10 | Simular la capacidad con las fallas actuales. |
+| 11 | Volver a mostrar el mapa de la red. |
 | 0 | Salir. |
 
 Los nodos y aristas que se agregan en el menú solo existen durante esa ejecución. El programa no guarda esos cambios en `datos/red_agua.txt`; para conservarlos hay que editar el archivo de datos.

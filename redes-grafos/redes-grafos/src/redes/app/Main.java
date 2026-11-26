@@ -22,6 +22,7 @@ public final class Main {
         for (String a : args) if (!a.equals("--demo")) ruta = a;
 
         Red red = CargadorRed.cargar(Path.of(ruta));
+        MapaRed.mostrar(red);
         if (demo) {
             Reportes.resumen(red);
             Reportes.afectados(red);
@@ -44,6 +45,7 @@ public final class Main {
                      3) Agregar arista             8) Plan de reparación
                      4) Registrar falla de nodo    9) Análisis de vulnerabilidad
                      5) Registrar falla de arista 10) Simulación de capacidad
+                    11) Mostrar mapa de la red
                      0) Salir""");
             System.out.print("Opción: ");
             if (!in.hasNextLine()) return;
@@ -70,6 +72,7 @@ public final class Main {
                     case "8" -> Reportes.plan(red);
                     case "9" -> Reportes.vulnerabilidad(red);
                     case "10" -> Reportes.capacidad(red);
+                    case "11" -> MapaRed.mostrar(red);
                     case "0" -> { return; }
                     default -> System.out.println("Opción no válida");
                 }
